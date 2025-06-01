@@ -1,0 +1,62 @@
+.box {
+  padding: 15px 0 100px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  background-color: #efefef;
+}
+.form-container {
+  margin: auto;
+}
+.input-group {
+  padding: 20px 20px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: start;
+  gap: 0.5rem;
+  background-color: #fff;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+label {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: start;
+}
+.box-kategory {
+  margin: 10px 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: start;
+  gap: 0.5rem;
+}
+.input-recipe {
+  margin: 5px 0;
+  padding: 5px 10px;
+  font-size: 0.9rem;
+}
+.checkbox {
+  width: 30px;
+}
+.input-text {
+  margin: 5px 0;
+  padding: 5px 10px;
+  font-size: 0.5rem;
+  height: 60px;
+}
+.input-file {
+  margin: 10px 0;
+}
+.btn-submit {
+  margin: auto;
+  padding: 2px 0;
+  width: 150px;
+  background: #fff;
+  border-radius: 5px;
+  border: 1px solid grey;
+}

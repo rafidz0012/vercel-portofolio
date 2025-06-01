@@ -1,0 +1,28 @@
+.App {
+  margin: 0;
+  box-sizing: border-box;
+}
+.error-page {
+  transform: translate(-50%, -50%);
+  top: 35%;
+  left: 50%;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 0.1rem;
+}
+.heading {
+  font-size: 100px;
+}
+.notfound-img {
+  margin: 0 3px 0 5px;
+  width: 80px;
+}
+.btn-error {
+  margin: auto;
+  padding: 10px;
+  width: 150px;
+  background: linear-gradient(rgb(255, 196, 87), white);
+  border: 1px solid rgb(73, 73, 73);
+}

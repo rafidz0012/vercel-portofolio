@@ -1,0 +1,85 @@
+.login-container {
+  margin-top: 2%;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.my-text {
+  font-family: Brush Script MT;
+  font-size: 6rem;
+  text-align: center;
+  margin: 25px auto 60px;
+  color: #f58300;
+  -webkit-text-stroke: 1px rgb(0, 0, 0);
+}
+.box-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.img-container {
+  margin-left: 250px;
+}
+.login-img {
+  width: 80%;
+}
+.form-container {
+  border: 1px solid grey;
+  border-radius: 5%;
+  padding: 50px 30px;
+  text-align: center;
+}
+.form-text {
+  font-size: 25px;
+  margin: 0 0 15px 0px;
+  font-style: oblique;
+  font-weight: bold;
+}
+.form-box {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+label {
+  gap: 5px;
+  font-style: oblique;
+}
+input {
+  height: 25px;
+}
+.login-btn {
+  margin: 10px auto;
+  width: 55%;
+  height: 40px;
+  background-color: #f58300;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 5%;
+  font-style: oblique;
+  color: #fff;
+  font-size: 15px;
+}
+.link-signup {
+  font-style: oblique;
+  margin: 0 5px;
+}
+@media screen and (max-width: 576px) {
+  .login-img {
+    width: 250px;
+  }
+  .img-container {
+    margin: 0 0 25px;
+  }
+  .my-text {
+    font-size: 4rem;
+    margin: 25px auto 20px;
+  }
+  .form-container {
+    padding: 30px 30px;
+  }
+  .login-btn {
+    margin: 0;
+  }
+}

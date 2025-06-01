@@ -1,0 +1,47 @@
+.ingredients-card {
+  margin: 0 20px;
+  width: 600px;
+  height: 150px;
+  display: flex;
+  padding: 0.5rem 10px;
+  border: 1px solid grey;
+  border-radius: 8px;
+  flex-direction: row;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: #fff;
+}
+.ingredients-card:hover {
+  background-color: #dcdcdc;
+}
+
+.avatar {
+  border-radius: 10px;
+  height: auto;
+}
+
+.info {
+  text-align: left;
+  margin-left: 1rem;
+}
+
+h3 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  font-family: "Sans";
+}
+.rating {
+  margin: auto;
+  float: left;
+}
+.info p {
+  margin-bottom: 0.5rem;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  font-family: "Sans";
+}
